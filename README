@@ -1,0 +1,22 @@
+========================================================
+                    PROJEKT INDÍTÁSA
+========================================================
+
+Nyisd meg a projekt gyökérkönyvtárát, majd futtasd a következő parancsot:
+
+    python3 init_project.py
+
+Mi történik a script futtatásakor:
+
+1. Létrehozza a 'fastapi-env' virtuális környezetet, ha még nem létezik
+2. Telepíti a szükséges csomagokat a 'req.txt' alapján
+3. Elindítja a FastAPI projektet a 8000-es porton
+   (http://127.0.0.1:8000)
+
+--------------------------------------------------------
+Megjegyzés:
+
+- Győződj meg róla, hogy a Python 3 telepítve van
+- Ellenőrizd, hogy a 'req.txt' a gyökérkönyvtárban található
+- Ha már létezik a virtuális környezet, a script csak frissíti a csomagokat
+========================================================
